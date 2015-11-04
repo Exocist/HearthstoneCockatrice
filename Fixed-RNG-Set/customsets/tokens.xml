@@ -527,8 +527,8 @@
       <set muId="EX1_320">Warlock</set>
       <manacost>5</manacost>
       <type>Spell</type>
-      <text>Deal 2 damage to a character. If that kills it, summon a random Demon.
-(Summons Dread Infernal, Succubus, Voidwalker, Blood Imp, Flame Imp or Felguard.)</text>
+      <text>Deal 2 damage to a character. If that kills it, summon a random 4 mana demon.
+(Roll a 3 sided-dice. Summon a Pit Lord on 1, a Voidcaller on 2 and a Dreadsteed on 3)</text>
       <tablerow>3</tablerow>
     </card>
     <card>
@@ -776,7 +776,7 @@
       <set muId="NEW1_016">Neutral</set>
       <manacost>2</manacost>
       <type>Minion - Beast</type>
-      <text>Battlecry: Put a random Pirate from your deck into your hand.</text>
+      <text>Battlecry: Search your deck for a Pirate, reveal it, and put it into your hand. Then shuffle your deck.</text>
       <pt>1/1</pt>
       <tablerow>2</tablerow>
     </card>
@@ -1112,7 +1112,7 @@
       <set muId="EX1_310">Warlock</set>
       <manacost>5</manacost>
       <type>Minion - Demon</type>
-      <text>Charge. Battlecry: Discard two random cards.</text>
+      <text>Charge. Battlecry: Choose and discard two cards.</text>
       <pt>5/7</pt>
       <tablerow/>
     </card>
@@ -1363,7 +1363,7 @@
       <set muId="CS2_053">Shaman</set>
       <manacost>3</manacost>
       <type>Spell</type>
-      <text>Draw a card. That card costs (3) less.</text>
+      <text>Exile the top card of your deck. You may play that card for as long as it remains exiled and may pay up to (3) less to cast it.</text>
       <tablerow>3</tablerow>
     </card>
     <card>
@@ -1519,7 +1519,7 @@
       <set muId="EX1_611">Hunter</set>
       <manacost>2</manacost>
       <type>Spell</type>
-      <text>Secret: When an enemy minion attacks, return it to its owner's hand and it costs (2) more.</text>
+      <text>Secret: When an enemy minion attacks, exile it. Your opponent may cast that card for as long as it remains exiled, provided they pay (2) more to cast it.</text>
       <tablerow>3</tablerow>
     </card>
     <card>
@@ -2336,11 +2336,11 @@ Hero Power: Summon a 6/6 Infernal.</text>
     </card>
     <card>
       <name>Mad Scientist</name>
-      <set muId="FP1_004">Neutral Naxx</set>
+      <set picURL="">Neutral Naxx</set>
       <manacost>2</manacost>
       <type>Minion</type>
-      <text>Deathrattle: Put a Secret from your deck into the battlefield.</text>
-      <pt>2/2</pt>
+      <text>Deathrattle: Put a Secret of your choice from your deck onto the battlefield.</text>
+      <pt>1/3</pt>
       <tablerow>2</tablerow>
     </card>
     <card>
@@ -2485,9 +2485,9 @@ Hero Power: Summon a 6/6 Infernal.</text>
     <card>
       <name>Mind Vision</name>
       <set muId="CS2_003">Priest</set>
-      <manacost>1</manacost>
+      <manacost>2</manacost>
       <type>Spell</type>
-      <text>Put a copy of a random card in your opponent's hand into your hand.</text>
+      <text>Look at your opponent's hand and put a copy of a card of your choice into your hand.</text>
       <tablerow>3</tablerow>
     </card>
     <card>
@@ -2495,8 +2495,7 @@ Hero Power: Summon a 6/6 Infernal.</text>
       <set muId="EX1_345">Priest</set>
       <manacost>4</manacost>
       <type>Spell</type>
-      <text>Put a copy of a random minion from your opponent's deck into the battlefield.
-(Puts Shadow of Nothing into the battlefield in the absence of minions.)</text>
+      <text>Reveal cards from the top of your opponent's deck until you reveal a minion. Put a copy of that card onto your battlefield, then shuffle your opponent's deck. (If there is no minions, summon a Shadow of Nothing).</text>
       <tablerow>3</tablerow>
     </card>
     <card>
@@ -3407,7 +3406,7 @@ Hero Power: Summon a 6/6 Infernal.</text>
       <set muId="EX1_308">Warlock</set>
       <manacost>1</manacost>
       <type>Spell</type>
-      <text>Deal 4 damage. Discard a random card.</text>
+      <text>Deal 4 damage. Choose and discard a card.</text>
       <tablerow>3</tablerow>
     </card>
     <card>
@@ -3593,7 +3592,7 @@ Hero Power: Summon a 6/6 Infernal.</text>
       <set muId="EX1_306">Warlock</set>
       <manacost>2</manacost>
       <type>Minion - Demon</type>
-      <text>Battlecry: Discard a random card.</text>
+      <text>Battlecry: Choose and discard a card.</text>
       <pt>4/3</pt>
       <tablerow>2</tablerow>
     </card>
@@ -3936,7 +3935,7 @@ Hero Power: Summon a 6/6 Infernal.</text>
       <set muId="FP1_022">Warlock Naxx</set>
       <manacost>4</manacost>
       <type>Minion</type>
-      <text>Deathrattle: Put a random Demon from your hand into the battlefield.</text>
+      <text>Deathrattle: You may put a Demon of your choice from your hand into the battlefield.</text>
       <pt>3/4</pt>
       <tablerow>2</tablerow>
     </card>
@@ -3999,15 +3998,7 @@ Hero Power: Summon a 6/6 Infernal.</text>
       <set muId="FP1_011">Hunter Naxx</set>
       <manacost>1</manacost>
       <type>Minion</type>
-      <text>Deathrattle: Add a random Beast card to your hand.
-(Gives one of the following 28 minions:
-Angry Chicken, Bloodfen Raptor, Captain's Parrot, Core Hound,
-Dire Wolf Alpha, Emperor Cobra, Haunted Creeper, Hungry Crab,
-Ironbeak Owl, Ironfur Grizzly, Jungle Panther, King Krush,
-King Mukla, Maexxna, Oasis Snapjaw, River Crocolisk,
-Savannah Highmane, Scavenging Hyena, Silverback Patriarch, Stampeding Kodo,
-Starving Buzzard, Stonetusk Boar, Stranglethorn Tiger, The Beast,
-Timber Wolf, Tundra Rhino, Webspinner, Young Dragonhawk)</text>
+      <text>Deathrattle: Reveal cards from the top of your deck until you reveal a Beast. Put that card into your hand, then shuffle your deck.</text>
       <pt>1/1</pt>
       <tablerow>2</tablerow>
     </card>
@@ -4303,7 +4294,7 @@ Timber Wolf, Tundra Rhino, Webspinner, Young Dragonhawk)</text>
       <set PicURL="Call Pet.png">Hunter GvG</set>
       <manacost>2</manacost>
       <type>Spell</type>
-      <text>Draw a card. If it's a Beast, it costs (4) less.</text>
+      <text>Reveal the top card of your deck. If it is a beast, exile it. You may cast it for as long as it remains exiled and may pay up to (4) less to cast it. If it is not a beast, draw it.</text>
       <tablerow>3</tablerow>
     </card>
 <card>
@@ -4336,7 +4327,7 @@ Timber Wolf, Tundra Rhino, Webspinner, Young Dragonhawk)</text>
       <set PicURL="Glaivezooka.png">Hunter GvG</set>
       <manacost>2</manacost>
       <type>Weapon</type>
-      <text>Battlecry: Give a random friendly minion +1 Attack.</text>
+      <text>Battlecry: Give a friendly minion +1 Attack.</text>
       <pt>2/2</pt>
       <tablerow>1</tablerow>
     </card>
@@ -4397,7 +4388,9 @@ Timber Wolf, Tundra Rhino, Webspinner, Young Dragonhawk)</text>
       <set PicURL="Flame Leviathan.png">Mage GvG</set>
       <manacost>7</manacost>
       <type>Legendary Minion</type>
-      <text>When you draw this, deal 2 damage to all characters.</text>
+      <text>If this card is in your hand, you may reveal it. If you do, deal 2 damage to ALL characters, then shuffle Flame Leviathan back into your deck.
+
+Battlecry: Deal 2 damage to ALL characters.</text>
       <pt>7/7</pt>
       <tablerow>2</tablerow>
     </card>
@@ -4441,7 +4434,7 @@ Timber Wolf, Tundra Rhino, Webspinner, Young Dragonhawk)</text>
       <set PicURL="Unstable Portal.png">Mage GvG</set>
       <manacost>2</manacost>
       <type>Spell</type>
-      <text>Add a random minion to your hand. It costs (3) less.</text>
+      <text>Reveal cards from the top of your deck until you reveal a minion. Exile that minion, then shuffle your deck. You may play that minion for as long as it remains exiled and may pay up to (3) less to cast it.</text>
       <tablerow>3</tablerow>
     </card>
 <card>
@@ -4458,7 +4451,7 @@ Timber Wolf, Tundra Rhino, Webspinner, Young Dragonhawk)</text>
       <set PicURL="Blackwing Corruptor.png">Neutral BRM</set>
       <manacost>5</manacost>
       <type>Minion</type>
-      <text>Battlecry: If you're holding a Dragon, deal 3 damage.</text>
+      <text>Battlecry: You may reveal a dragon in your hand. If you do, deal 3 damage.</text>
       <pt>5/4</pt>
       <tablerow>2</tablerow>
     </card>
@@ -4467,7 +4460,7 @@ Timber Wolf, Tundra Rhino, Webspinner, Young Dragonhawk)</text>
       <set PicURL="Blackwing Technician.png">Neutral BRM</set>
       <manacost>3</manacost>
       <type>Minion</type>
-      <text>Battlecry: If you're holding a Dragon, gain +1/+1.</text>
+      <text>Battlecry: You may reveal a Dragon in your hand. If you do, gain +1/+1.</text>
       <pt>2/4</pt>
       <tablerow>2</tablerow>
     </card>
@@ -4476,7 +4469,7 @@ Timber Wolf, Tundra Rhino, Webspinner, Young Dragonhawk)</text>
       <set PicURL="Chromaggus.png">Neutral BRM</set>
       <manacost>8</manacost>
       <type>Minion</type>
-      <text>Whenever you draw a card, put another copy into your hand.</text>
+      <text>If you would draw a card, exile it instead. Then add a copy of the exiled card to your hand. You may play cards exiled with Chromaggus.</text>
       <pt>6/8</pt>
       <tablerow>2</tablerow>
     </card>
@@ -4512,7 +4505,7 @@ Timber Wolf, Tundra Rhino, Webspinner, Young Dragonhawk)</text>
       <set PicURL="Emperor Thaurissan.png">Neutral BRM</set>
       <manacost>6</manacost>
       <type>Minion</type>
-      <text>At the end of your turn, reduce the Cost of cards in your hand by (1).</text>
+      <text>At the end of your turn, exile all cards in your hand and gain a Firelord counter (Use one of the 7 counters on the side to denote this). You may play cards exiled with Emperor Thaurissan and may pay up to (1) less for each Firelord counter you have.</text>
       <pt>5/5</pt>
       <tablerow>2</tablerow>
     </card>
@@ -4530,7 +4523,7 @@ Timber Wolf, Tundra Rhino, Webspinner, Young Dragonhawk)</text>
       <set PicURL="Hungry Dragon.png">Neutral BRM</set>
       <manacost>4</manacost>
       <type>Minion</type>
-      <text>Battlecry: Summon a random 1-Cost minion for your opponent.</text>
+      <text>Battlecry: Summon a Zombie Chow for your opponent.</text>
       <pt>5/6</pt>
       <tablerow>2</tablerow>
     </card>
@@ -4548,7 +4541,7 @@ Timber Wolf, Tundra Rhino, Webspinner, Young Dragonhawk)</text>
       <set PicURL="Nefarian.png">Neutral BRM</set>
       <manacost>9</manacost>
       <type>Minion</type>
-      <text>Battlecry: Add 2 random spells to your hand (from your opponent's class).</text>
+      <text>Battlecry: Add the first 2 spells in your opponent's graveyard to your hand</text>
       <pt>8/8</pt>
       <tablerow>2</tablerow>
     </card>
@@ -4557,7 +4550,7 @@ Timber Wolf, Tundra Rhino, Webspinner, Young Dragonhawk)</text>
       <set PicURL="Rend Blackhand.png">Neutral BRM</set>
       <manacost>7</manacost>
       <type>Minion</type>
-      <text>Battlecry: If you're holding a Dragon, destroy a Legendary minion.</text>
+      <text>Battlecry: You may reveal a Dragon in your hand. If you do, , destroy a Legendary minion.</text>
       <pt>8/4</pt>
       <tablerow>2</tablerow>
     </card>
@@ -4602,7 +4595,7 @@ Timber Wolf, Tundra Rhino, Webspinner, Young Dragonhawk)</text>
       <set PicURL="Blingtron 3000.png">Neutral GvG</set>
       <manacost>5</manacost>
       <type>Minion</type>
-      <text>Battlecry: Equip a random weapon for each player.</text>
+      <text>Battlecry: Choose a number from 1 to 7. All players equip a weapon with attack equal to the chosen number and durability equal to 8 minus the chosen number.</text>
       <pt>3/4</pt>
       <tablerow>2</tablerow>
     </card>
@@ -4719,7 +4712,7 @@ Timber Wolf, Tundra Rhino, Webspinner, Young Dragonhawk)</text>
       <set PicURL="Gazlowe.png">Neutral GvG</set>
       <manacost>6</manacost>
       <type>Minion</type>
-      <text>Whenever you cast a 1-mana spell, add a random Mech to your hand.</text>
+      <text>Whenever you cast a 1-mana spell, summon a Shielded Minibot.</text>
       <pt>3/6</pt>
       <tablerow>2</tablerow>
     </card>
@@ -4746,7 +4739,7 @@ Timber Wolf, Tundra Rhino, Webspinner, Young Dragonhawk)</text>
       <set PicURL="Gnomish Experimenter.png">Neutral GvG</set>
       <manacost>3</manacost>
       <type>Minion</type>
-      <text>Battlecry: Draw a card. If it's a minion, transform it into a Chicken.</text>
+      <text>Battlecry: Draw a card and reveal it. If it's a minion, discard it and summon a 1/1 Chicken.</text>
       <pt>3/2</pt>
       <tablerow>2</tablerow>
     </card>
@@ -4917,7 +4910,7 @@ Timber Wolf, Tundra Rhino, Webspinner, Young Dragonhawk)</text>
       <set PicURL="Piloted Shredder.png">Neutral GvG</set>
       <manacost>4</manacost>
       <type>Minion</type>
-      <text>Deathrattle: Summon a random 2-Cost minion.</text>
+      <text>Deathrattle: Summon a Gilbin Stalker.</text>
       <pt>4/3</pt>
       <tablerow>2</tablerow>
     </card>
@@ -4926,7 +4919,7 @@ Timber Wolf, Tundra Rhino, Webspinner, Young Dragonhawk)</text>
       <set PicURL="Piloted Sky Golem.png">Neutral GvG</set>
       <manacost>6</manacost>
       <type>Minion</type>
-      <text>Deathrattle: Summon a randome 4-Cost minion.</text>
+      <text>Deathrattle: Summon a Mini-Mage.</text>
       <pt>6/4</pt>
       <tablerow>2</tablerow>
     </card>
@@ -4944,7 +4937,7 @@ Timber Wolf, Tundra Rhino, Webspinner, Young Dragonhawk)</text>
       <set PicURL="Recombobulator.png">Neutral GvG</set>
       <manacost>2</manacost>
       <type>Minion</type>
-      <text>Battlecry: Transform a friendly minion into a random minion with the same Cost.</text>
+      <text>Battlecry: Return a friendly minion to your deck. Then reveal cards from the top of your deck until you reveal a minion with the same cost. Put that minion into play, then shuffle your deck.</text>
       <pt>3/2</pt>
       <tablerow>2</tablerow>
     </card>
@@ -4971,7 +4964,7 @@ Timber Wolf, Tundra Rhino, Webspinner, Young Dragonhawk)</text>
       <set PicURL="Sneed's Old Shredder.png">Neutral GvG</set>
       <manacost>8</manacost>
       <type>Minion</type>
-      <text>Deathrattle: Summon a random legendary minion.</text>
+      <text>Deathrattle: Choose a Legendary minion in your graveyard and summon it. You can't choose Sneed's Old Shredder.</text>
       <pt>5/7</pt>
       <tablerow>2</tablerow>
     </card>
@@ -5051,7 +5044,7 @@ Timber Wolf, Tundra Rhino, Webspinner, Young Dragonhawk)</text>
       <set PicURL="Bolvar Fordragon.png">Paladin GvG</set>
       <manacost>5</manacost>
       <type>Legnedary Minion</type>
-      <text>Whenever a friendly minion dies while this is in your hand, gain +1 Attack.</text>
+      <text>Battlecry: Gain +1 Attack for each minion in your graveyard. If this attack exceeds 3, gain Taunt. If this attack exceeds 6, gain Divine Shield."</text>
       <pt>1/7</pt>
       <tablerow>2</tablerow>
     </card>
@@ -5069,7 +5062,7 @@ Timber Wolf, Tundra Rhino, Webspinner, Young Dragonhawk)</text>
       <set PicURL="Coghammer.png">Paladin GvG</set>
       <manacost>3</manacost>
       <type>Weapon</type>
-      <text>Battlecry: Give a random friendly minion Divine Shield and Taunt.</text>
+      <text>Battlecry: Give a friendly minion Divine Shield and Taunt.</text>
       <pt>2/3</pt>
       <tablerow>1</tablerow>
     </card>
@@ -5121,7 +5114,7 @@ Timber Wolf, Tundra Rhino, Webspinner, Young Dragonhawk)</text>
       <set PicURL="Resurrect.png">Priest BRM</set>
       <manacost>2</manacost>
       <type>Minion</type>
-      <text>Summon a random friendly minion that died this game.</text>
+      <text>Summon a random minion in your graveyard.</text>
       <tablerow>3</tablerow>
     </card>
 <card>
@@ -5129,7 +5122,7 @@ Timber Wolf, Tundra Rhino, Webspinner, Young Dragonhawk)</text>
       <set PicURL="Twilight Whelp.png">Priest BRM</set>
       <manacost>1</manacost>
       <type>Minion</type>
-      <text>Battlecry: If you're holding a Dragon, gain +2 Health.</text>
+      <text>Battlecry: You may reveal a Dragon in your hand. If you do, gain +2 Health.</text>
       <pt>2/1</pt>
       <tablerow>2</tablerow>
     </card>
@@ -5277,7 +5270,7 @@ Timber Wolf, Tundra Rhino, Webspinner, Young Dragonhawk)</text>
       <set PicURL="Tinker's Sharpsword Oil.png">Rogue GvG</set>
       <manacost>4</manacost>
       <type>Spell</type>
-      <text>Give your weapon +3 Attack. Combo: Give a random friendly minion +3 Attack.</text>
+      <text>Give your weapon +3 Attack. Combo: Give a friendly minion +3 Attack.</text>
       <tablerow>3</tablerow>
     </card>
 <card>
@@ -5311,7 +5304,7 @@ Timber Wolf, Tundra Rhino, Webspinner, Young Dragonhawk)</text>
       <set PicURL="Ancestor's Call.png">Shaman GvG</set>
       <manacost>4</manacost>
       <type>Spell</type>
-      <text>Put a random minion from each player's hand into the battlefield.</text>
+      <text>Both players choose a minion in their hand and put it onto the battlefield.</text>
       <tablerow>3</tablerow>
     </card>
 <card>
@@ -5336,7 +5329,7 @@ Timber Wolf, Tundra Rhino, Webspinner, Young Dragonhawk)</text>
       <set PicURL="Neptulon.png">Shaman GvG</set>
       <manacost>7</manacost>
       <type>Minion</type>
-      <text>Battlecry: Add 4 random Murlocs to your hand. Overload: (3)</text>
+      <text>Battlecry: Add a Murloc Warleader, an Old Murk-Eye, a Murloc Tidehunter and a Murloc Tidecaller to your hand. Overload: (3)</text>
       <pt>7/7</pt>
       <tablerow>2</tablerow>
     </card>
@@ -5345,7 +5338,7 @@ Timber Wolf, Tundra Rhino, Webspinner, Young Dragonhawk)</text>
       <set PicURL="Powermace.png">Shaman GvG</set>
       <manacost>3</manacost>
       <type>Weapon</type>
-      <text>Deathrattle: Give a random friendly Mech +2/+2.</text>
+      <text>Deathrattle: Give a friendly Mech +2/+2.</text>
       <pt>3/2</pt>
       <tablerow>1</tablerow>
     </card>
@@ -5607,7 +5600,7 @@ Timber Wolf, Tundra Rhino, Webspinner, Young Dragonhawk)</text>
       <set PicURL="">Warrior GvG</set>
       <manacost>6</manacost>
       <type>Minion</type>
-      <text>Battlecry: Shuffle a Mine into your opponent's deck. When drawn, it explodes for 10 damage.</text>
+      <text>Battlecry: At the start of your opponent's 5th turn after playing Iron Juggernaut, deal 10 damage to your opponent.</text>
       <pt>6/5</pt>
       <tablerow>2</tablerow>
     </card>
@@ -5736,7 +5729,7 @@ Timber Wolf, Tundra Rhino, Webspinner, Young Dragonhawk)</text>
     <type>Minion</type> 
     <pt>1/2</pt>
     <tablerow>2</tablerow>
-    <text>Battlecry: Reveal a random minion in each deck. If yours costs more, gain +1/+1.</text>
+    <text>Battlecry: Reveal the top card of each deck. If yours costs more, gain +1/+1.</text>
 </card>
 <card>
     <name>Lowly Squire</name>
@@ -6016,7 +6009,7 @@ Timber Wolf, Tundra Rhino, Webspinner, Young Dragonhawk)</text>
     <type>Minion - Beast</type> 
     <pt>5/3</pt>
     <tablerow>2</tablerow>
-    <text>Battlecry: Reveal a random minion in each deck. If yours costs more, gain Charge.</text>
+    <text>Battlecry: Reveal the top card of each deck. If yours costs more, gain Charge.</text>
 </card>
 <card>
     <name>Master Jouster</name>
@@ -6026,7 +6019,7 @@ Timber Wolf, Tundra Rhino, Webspinner, Young Dragonhawk)</text>
     <type>Minion</type> 
     <pt>5/6</pt>
     <tablerow>2</tablerow>
-    <text>Battlecry: Reveal a random minion in each deck. If yours costs more, gain Taunt and Divine Shield.</text>
+    <text>Battlecry: Reveal the top card of each deck. If yours costs more, gain Taunt and Divine Shield.</text>
 </card>
 <card>
     <name>Mogor's Champion</name>
@@ -6096,7 +6089,7 @@ Timber Wolf, Tundra Rhino, Webspinner, Young Dragonhawk)</text>
     <type>Minion</type> 
     <pt>5/5</pt>
     <tablerow>2</tablerow>
-    <text>Battlecry: Add a random Paladin card to your hand.</text>
+    <text>Battlecry: Add a Lay on Hands to your hand</text>
 </card>
 <card>
     <name>Kodorider</name>
@@ -6165,7 +6158,7 @@ Timber Wolf, Tundra Rhino, Webspinner, Young Dragonhawk)</text>
     <type>Legendary Minion</type> 
     <pt>4/5</pt>
     <tablerow>2</tablerow>
-    <text>Inspire: Add a random spell to your hand.</text>
+    <text>Inspire: Search your deck for a Secret and put it into play. Then, add an Ethereal Arcanist to your hand.</text>
 </card>
 <card>
     <name>Nexus-Champion Saraad</name>
@@ -6205,7 +6198,7 @@ Timber Wolf, Tundra Rhino, Webspinner, Young Dragonhawk)</text>
     <type>Legendary Minion</type> 
     <pt>7/4</pt>
     <tablerow>2</tablerow>
-    <text>Deathrattle: Reveal a random minion in each deck. If yours costs more, return this minion to your hand.</text>
+    <text>Deathrattle: Reveal the top card of each deck. If yours costs more, return this minion to your hand.</text>
 </card>
 <card>
     <name>Chillmaw</name>
@@ -6302,7 +6295,7 @@ Timber Wolf, Tundra Rhino, Webspinner, Young Dragonhawk)</text>
     <type>Spell</type> 
     <pt></pt>
     <tablerow>3</tablerow>
-    <text>Destroy a minion. Add a random minion to your opponent's hand.</text>
+    <text>Destroy a minion. Your opponent reveals cards from the top of their deck until they reveal a minion. Your opponent adds the revealed minion to their hand (Then shuffles their deck).</text>
 </card>
 <card>
     <name>Astral Communion</name>
@@ -6357,7 +6350,7 @@ Timber Wolf, Tundra Rhino, Webspinner, Young Dragonhawk)</text>
     <type>Minion - Beast</type> 
     <pt>3/2</pt>
     <tablerow>2</tablerow>
-    <text>Battlecry: Reveal a minion in each deck. If yours costs more, draw it.</text>
+    <text>Battlecry: Reveal the top card of each deck. If yours costs more, draw it.</text>
 </card>
 <card>
     <name>Powershot</name>
@@ -6375,7 +6368,7 @@ Timber Wolf, Tundra Rhino, Webspinner, Young Dragonhawk)</text>
     <type>Minion</type> 
     <pt>3/3</pt>
     <tablerow>2</tablerow>
-    <text>Battlecry: If you control a Beast, summon a random Beast.</text>
+    <text>Battlecry: If you control a Beast, summon a random 4-cost Beast.</text>
 </card>
 <card>
     <name>Ball of Spiders</name>
@@ -6393,7 +6386,7 @@ Timber Wolf, Tundra Rhino, Webspinner, Young Dragonhawk)</text>
     <type>Spell</type> 
     <pt></pt>
     <tablerow>3</tablerow>
-    <text>Whenever you cast a spell this turn, add a random Hunter card to your hand.</text>
+    <text>Whenever you cast a spell this turn, add a Hunter card with a different name from the spell you cast from your deck to your hand.</text>
 </card>
 <card>
     <name>Stablemaster</name>
@@ -6429,7 +6422,7 @@ Timber Wolf, Tundra Rhino, Webspinner, Young Dragonhawk)</text>
     <type>Minion</type> 
     <pt>3/4</pt>
     <tablerow>2</tablerow>
-    <text>Battlecry: Add a random spell to both player's hands.</text>
+    <text>Both players reveal cards from the top of their deck until they reveal a spell, then add that spell to their hand.</text>
 </card>
 <card>
     <name>Dalaran Aspirant</name>
@@ -6527,7 +6520,7 @@ Timber Wolf, Tundra Rhino, Webspinner, Young Dragonhawk)</text>
     <set picURL="">Paladin TGT</set>
     <manacost>4</manacost>
     <type>Minion</type> 
-    <pt>3/4</pt>
+    <pt>3/5</pt>
     <tablerow>2</tablerow>
     <text>Inspire: Summon a random Murloc.</text>
 </card>
@@ -6556,7 +6549,7 @@ Timber Wolf, Tundra Rhino, Webspinner, Young Dragonhawk)</text>
     <type>Minion</type> 
     <pt>5/5</pt>
     <tablerow>2</tablerow>
-    <text>Battlecry: Reveal a random minion in each deck. If yours costs more, gain 7 health.</text>
+    <text>Battlecry: Reveal the top card of each deck. If yours costs more, gain 7 health.</text>
 </card>
 <card>
     <name>Enter the Coliseum</name>
@@ -6574,7 +6567,7 @@ Timber Wolf, Tundra Rhino, Webspinner, Young Dragonhawk)</text>
     <type>Minion</type> 
     <pt>6/6</pt>
     <tablerow>2</tablerow>
-    <text>Battlecry: Put all Secrets from your deck onto the battlefield.</text>
+    <text>Your secrets cost (0) to play. Battlecry: Reveal up to 3 secrets with different names in your deck and add them to your hand, then shuffle your deck.</text>
 </card>
 <card>
     <name>Eadric the Pure</name>
@@ -6655,7 +6648,7 @@ Timber Wolf, Tundra Rhino, Webspinner, Young Dragonhawk)</text>
     <type>Minion</type> 
     <pt>3/3</pt>
     <tablerow>2</tablerow>
-    <text>Whenever you draw a card, reduce it's cost by (1) (This effect lasts as long as the card is in your hand).</text>
+    <text>Whenever you would draw a card, instead exile the top card of your deck. You may play cards exiled with Shadowfiend and may pay up to (1) less to play them.</text>
 </card>
 <card>
     <name>Confessor Paletress</name>
@@ -6664,7 +6657,7 @@ Timber Wolf, Tundra Rhino, Webspinner, Young Dragonhawk)</text>
     <type>Legendary Minion</type> 
     <pt>5/4</pt>
     <tablerow>2</tablerow>
-    <text>Inspire: Summon a random legendary minion.</text>
+    <text>Inspire: Summon a Legendary minion from any player's graveyard.</text>
 </card>
 <card>
     <name>Buccaneer</name>
@@ -6709,7 +6702,7 @@ Timber Wolf, Tundra Rhino, Webspinner, Young Dragonhawk)</text>
     <type>Spell</type> 
     <pt></pt>
     <tablerow>3</tablerow>
-    <text>Add 2 random class cards to your hand (From your opponent's class).</text>
+    <text>Choose 2 cards in your opponent's graveyard and add them to your hand.</text>
 </card>
 <card>
     <name>Shady Dealer</name>
@@ -6729,7 +6722,7 @@ Timber Wolf, Tundra Rhino, Webspinner, Young Dragonhawk)</text>
     <type>Spell</type> 
     <pt></pt>
     <tablerow>3</tablerow>
-    <text>Shuffle 3 Ambushes into your opponent's deck. (Ambush: When you draw this card, summon a 4/4 Nerubian for your opponent, then draw another card).</text>
+    <text>Put beneath the grounds next to your hero power and choose an opponent. At the beginning of that players turn, put a Spider counter on Beneath the grounds, then if it has 4 or more Spider counters, remove all Spider counters and summon a 4/4 Nerubian. Once you have summoned 3 Nerubians this way, send Beneath the grounds to the graveyard.</text>
 </card>
 <card>
     <name>Poisoned Blade</name>
@@ -6792,7 +6785,7 @@ Timber Wolf, Tundra Rhino, Webspinner, Young Dragonhawk)</text>
     <type>Spell</type> 
     <pt></pt>
     <tablerow>3</tablerow>
-    <text>Restore 7 health. Reveal a random minion in each deck, if yours costs more restore 14 health instead.</text>
+    <text>Restore 7 health. Reveal the top card of each deck, if yours costs more restore 14 health instead.</text>
 </card>
 <card>
     <name>Draenai Totemcarver</name>
@@ -6837,7 +6830,7 @@ Timber Wolf, Tundra Rhino, Webspinner, Young Dragonhawk)</text>
     <type>Minion</type> 
     <pt>4/4</pt>
     <tablerow>2</tablerow>
-    <text>Battlecry: Give all minions in your hand and deck +1/+1.</text>
+    <text>Battlecry: You gain an emblem with "Minions you control have +1/+1". (Emblems are like passive hero powers you can gain this emblem multiple times).</text>
 </card>
 <card>
     <name>Demonfuse</name>
@@ -6909,7 +6902,7 @@ Timber Wolf, Tundra Rhino, Webspinner, Young Dragonhawk)</text>
     <type>Spell</type> 
     <pt></pt>
     <tablerow>3</tablerow>
-    <text>Destroy 2 random enemy minions. Discard 2 cards.</text>
+    <text>Destroy 2 random enemy minions. Choose and discard 2 cards.</text>
 </card>
 <card>
     <name>Wilfred Fizzlebang</name>
@@ -6918,7 +6911,7 @@ Timber Wolf, Tundra Rhino, Webspinner, Young Dragonhawk)</text>
     <type>Minion</type> 
     <pt>4/4</pt>
     <tablerow>2</tablerow>
-    <text>Cards you draw from your hero power cost (0).</text>
+    <text>If you would draw a card from your hero power, exile it instead. You may cast cards exiled this way without paying their mana costs.</text>
 </card>
 <card>
     <name>Bolster</name>
@@ -6990,7 +6983,7 @@ Timber Wolf, Tundra Rhino, Webspinner, Young Dragonhawk)</text>
     <type>Minion</type> 
     <pt>6/7</pt>
     <tablerow>2</tablerow>
-    <text>When you draw this card, reveal it and deal 1 damage to ALL friendly minions.</text>
+    <text>Reveal this card in your hand: Deal 1 damage to all friendly minions, then shuffle this card into your deck. Battlecry: Deal 1 damage to all friendly minions.</text>
 </card>
 <card>
     <name>Varian Wrynn</name>
@@ -6999,7 +6992,7 @@ Timber Wolf, Tundra Rhino, Webspinner, Young Dragonhawk)</text>
     <type>Legendary Minion</type> 
     <pt>7/7</pt>
     <tablerow>2</tablerow>
-    <text>Battlecry: Draw 3 cards. Put all minions drawn this way onto the battlefield.</text>
+    <text>Battlecry: Reveal the top 3 cards of your deck. Put all minions revealed this way onto the Battlefield and the rest into your hand.</text>
 </card>
 <card>
     <name>War Kodo</name>
