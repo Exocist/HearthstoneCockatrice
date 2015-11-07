@@ -7163,5 +7163,473 @@ Timber Wolf, Tundra Rhino, Webspinner, Young Dragonhawk)</text>
     <tablerow>2</tablerow>
     <text></text>
 </card>
+<card>
+    <name>Huge Toad</name>
+    <set picURL="">Neutral LoE</set>
+    <manacost>2</manacost>
+    <type>Minion - Beast</type> 
+    <pt>3/2</pt>
+    <tablerow>2</tablerow>
+    <text>Deathrattle: Deal 1 damage to a random enemy.</text>
+</card>
+<card>
+    <name>Jeweled Scarab</name>
+    <set picURL="">Neutral LoE</set>
+    <manacost>2</manacost>
+    <type>Minion - Beast</type> 
+    <pt>1/1</pt>
+    <tablerow>2</tablerow>
+    <text>Battlecry: Discover a 3 cost card.</text>
+</card>
+<card>
+    <name>Murloc Tinyfin</name>
+    <set picURL="">Neutral LoE</set>
+    <manacost>0</manacost>
+    <type>Minion - Murloc</type> 
+    <pt>1/1</pt>
+    <tablerow>2</tablerow>
+    <text></text>
+</card>
+<card>
+    <name>Tomb Spider</name>
+    <set picURL="">Neutral LoE</set>
+    <manacost>4</manacost>
+    <type>Minion - Beast</type> 
+    <pt>3/3</pt>
+    <tablerow>2</tablerow>
+    <text>Battlecry: Discover a Beast.</text>
+</card>
+<card>
+    <name>Wobbling Runts</name>
+    <set picURL="">Neutral LoE</set>
+    <manacost>6</manacost>
+    <type>Minion</type> 
+    <pt>2/6</pt>
+    <tablerow>2</tablerow>
+    <text>Deathrattle: Summon three 2/2 Runts</text>
+</card>
+<card>
+    <name>Djinni of Zephyrs</name>
+    <set picURL="">Neutral LoE</set>
+    <manacost>5</manacost>
+    <type>Minion</type> 
+    <pt>4/6</pt>
+    <tablerow>2</tablerow>
+    <text>Whenever you cast a spell on a friendly minion, cast a copy of it on this one.</text>
+</card>
+<card>
+    <name>Anubisath Sentinel</name>
+    <set picURL="">Neutral LoE</set>
+    <manacost>5</manacost>
+    <type>Minion</type> 
+    <pt>4/3</pt>
+    <tablerow>2</tablerow>
+    <text>Deathrattle: Give a random friendly minion +3/+3.</text>
+</card>
+<card>
+    <name>Summoning Stone</name>
+    <set picURL="">Neutral LoE</set>
+    <manacost>5</manacost>
+    <type>Minion</type> 
+    <pt>0/5</pt>
+    <tablerow>2</tablerow>
+    <text>Whenever you cast a spell, summon a random minion with the same cost.</text>
+</card>
+<card>
+    <name>Ancient Shade</name>
+    <set picURL="">Neutral LoE</set>
+    <manacost>5</manacost>
+    <type>Minion</type> 
+    <pt>7/4</pt>
+    <tablerow>2</tablerow>
+    <text>Battlecry: Shuffle an "Ancient Curse" into your deck, that deals you 7 damage when drawn.</text>
+</card>
+<card>
+    <name>Gorillabot A-3</name>
+    <set picURL="">Neutral LoE</set>
+    <manacost>4</manacost>
+    <type>Minion - Mech</type> 
+    <pt>3/4</pt>
+    <tablerow>2</tablerow>
+    <text>Battlecry: If you control a mech, Discover a mech.</text>
+</card>
+<card>
+    <name>Naga Sea Witch</name>
+    <set picURL="">Neutral LoE</set>
+    <manacost>5</manacost>
+    <type>Minion</type> 
+    <pt>5/5</pt>
+    <tablerow>2</tablerow>
+    <text>Your cards cost (5).</text>
+</card>
+<card>
+    <name>Eerie Statue</name>
+    <set picURL="">Neutral LoE</set>
+    <manacost>4</manacost>
+    <type>Minion</type> 
+    <pt>7/7</pt>
+    <tablerow>2</tablerow>
+    <text>Can't attack unless it's the only minion on the battlefield.</text>
+</card>
+<card>
+    <name>Fossilised Devilsaur</name>
+    <set picURL="">Neutral LoE</set>
+    <manacost>8</manacost>
+    <type>Minion</type> 
+    <pt>8/8</pt>
+    <tablerow>2</tablerow>
+    <text>Battlecry: If you control a Beast, gain Taunt.</text>
+</card>
+<card>
+    <name>Brann Bronzebeard</name>
+    <set picURL="">Neutral LoE</set>
+    <manacost>3</manacost>
+    <type>Legendary Minion</type> 
+    <pt>2/4</pt>
+    <tablerow>2</tablerow>
+    <text>Your Battlecries trigger twice.</text>
+</card>
+<card>
+    <name>Elise Starseeker</name>
+    <set picURL="">Neutral LoE</set>
+    <manacost>4</manacost>
+    <type>Legendary Minion</type> 
+    <pt>3/5</pt>
+    <tablerow>2</tablerow>
+    <text>Battlecry: Shuffle a "Map to the Golden Monkey" into your deck.</text>
+</card>
+<card>
+    <name>Reno Jackson</name>
+    <set picURL="">Neutral LoE</set>
+    <manacost>6</manacost>
+    <type>Legendary Minion</type> 
+    <pt>4/6</pt>
+    <tablerow>2</tablerow>
+    <text>Battlecry: If your deck contains no more than 1 copy of any card, restore your hero to full health.</text>
+</card>
+<card>
+    <name>Sir Finley Mrrgglton</name>
+    <set picURL="">Neutral LoE</set>
+    <manacost>1</manacost>
+    <type>Legendary Minion - Murloc</type> 
+    <pt>1/3</pt>
+    <tablerow>2</tablerow>
+    <text>Battlecry: Discover a new Basic Hero Power. (Roll a dice 3 times and put the appropriate hero power onto the field. Then choose one of them to Discover. 1 is Druid, 2 is Hunter, 3 is Mage, 4 is Paladin, 5 is Priest, 6 is Rogue, 7 is Shaman, 8 is Warlock, 9 is Warrior.)</text>
+</card>
+<card>
+    <name>Arch-Thief Rafaam</name>
+    <set picURL="">Neutral LoE</set>
+    <manacost>9</manacost>
+    <type>Legendary Minion</type> 
+    <pt>7/8</pt>
+    <tablerow>2</tablerow>
+    <text>Battlecry: Discover a powerful Artefact. (Choose Mirror of Doom, Timepiece of Horror or Lantern of Power. Create a token of it and put it into your hand).</text>
+</card>
+<card>
+    <name>Mounted Raptor</name>
+    <set picURL="">Druid LoE</set>
+    <manacost>3</manacost>
+    <type>Minion - Beast</type> 
+    <pt>3/2</pt>
+    <tablerow>2</tablerow>
+    <text>Deathrattle: Summon a random 1-cost minion.</text>
+</card>
+<card>
+    <name>Jungle Moonkin</name>
+    <set picURL="">Druid LoE</set>
+    <manacost>4</manacost>
+    <type>Minion - Beast</type> 
+    <pt>4/4</pt>
+    <tablerow>2</tablerow>
+    <text>Both players have Spell Damage +2.</text>
+</card>
+<card>
+    <name>Raven Idol</name>
+    <set picURL="">Druid LoE</set>
+    <manacost>1</manacost>
+    <type>Spell</type> 
+    <pt></pt>
+    <tablerow>3</tablerow>
+    <text>Choose One: Discover a Spell or Discover a Minion</text>
+</card>
+<card>
+    <name>Explorer's Hat</name>
+    <set picURL="">Hunter LoE</set>
+    <manacost>2</manacost>
+    <type>Spell</type> 
+    <pt></pt>
+    <tablerow>3</tablerow>
+    <text>Give a minion +1/+1 and Deathrattle: Add an Explorer's Hat to your hand.</text>
+</card>
+<card>
+    <name>Dart Trap</name>
+    <set picURL="">Hunter LoE</set>
+    <manacost>2</manacost>
+    <type>Spell - Secret</type> 
+    <pt></pt>
+    <tablerow>3</tablerow>
+    <text>Secret: When your opponent uses their hero power, deal 5 damage to a random enemy.</text>
+</card>
+<card>
+    <name>Desert Camel</name>
+    <set picURL="">Druid LoE</set>
+    <manacost>3</manacost>
+    <type>Minion - Beast</type> 
+    <pt>2/4</pt>
+    <tablerow>2</tablerow>
+    <text>Battlecry: Both players put a random 1-cost minion from their deck onto the battlefield.</text>
+</card>
+<card>
+    <name>Forgotten Torch</name>
+    <set picURL="">Mage LoE</set>
+    <manacost>3</manacost>
+    <type>Spell</type> 
+    <pt></pt>
+    <tablerow>3</tablerow>
+    <text>Deal 3 damage. Shuffle a "Roaring Torch" into your deck.</text>
+</card>
+<card>
+    <name>Ethereal Conjurer</name>
+    <set picURL="">Mage LoE</set>
+    <manacost>5</manacost>
+    <type>Minion</type> 
+    <pt>6/3</pt>
+    <tablerow>2</tablerow>
+    <text>Battlecry: Discover a Spell.</text>
+</card>
+<card>
+    <name>Animated Armor</name>
+    <set picURL="">Mage LoE</set>
+    <manacost>4</manacost>
+    <type>Minion</type> 
+    <pt>4/4</pt>
+    <tablerow>2</tablerow>
+    <text>Your hero can only take 1 damage at a time.</text>
+</card>
+<card>
+    <name>Sacred Trial</name>
+    <set picURL="">Paladin LoE</set>
+    <manacost>1</manacost>
+    <type>Spell - Secret</type> 
+    <pt></pt>
+    <tablerow>3</tablerow>
+    <text>Secret: When your opponent plays a minion, if they already have 3 other minions on the board, destroy it.</text>
+</card>
+<card>
+    <name>Keeper of Uldaman</name>
+    <set picURL="">Paladin LoE</set>
+    <manacost>4</manacost>
+    <type>Minion</type> 
+    <pt>3/4</pt>
+    <tablerow>3</tablerow>
+    <text>Battlecry: Set a minion's Attack and Health to 3.</text>
+</card>
+<card>
+    <name>Anyfin Can Happen</name>
+    <set picURL="">Paladin LoE</set>
+    <manacost>10</manacost>
+    <type>Spell</type> 
+    <pt></pt>
+    <tablerow>3</tablerow>
+    <text>Summon 7 Murlocs that died this game.</text>
+</card>
+<card>
+    <name>Excavated Evil</name>
+    <set picURL="">Priest LoE</set>
+    <manacost>5</manacost>
+    <type>Spell</type> 
+    <pt></pt>
+    <tablerow>3</tablerow>
+    <text>Deal 3 damage to ALL minions. Shuffle this card into your opponent's deck.</text>
+</card>
+<card>
+    <name>Entomb</name>
+    <set picURL="">Priest LoE</set>
+    <manacost>6</manacost>
+    <type>Spell</type> 
+    <pt></pt>
+    <tablerow>3</tablerow>
+    <text>Choose an enemy minion. Shuffle it into your deck.</text>
+</card>
+<card>
+    <name>Museum Curator</name>
+    <set picURL="">Priest LoE</set>
+    <manacost>2</manacost>
+    <type>Minion</type> 
+    <pt>1/2</pt>
+    <tablerow>2</tablerow>
+    <text>Battlecry: Discover a Deathrattle minion.</text>
+</card>
+<card>
+    <name>Unearthed Raptor</name>
+    <set picURL="">Rogue LoE</set>
+    <manacost>3</manacost>
+    <type>Minion</type> 
+    <pt>3/4</pt>
+    <tablerow>2</tablerow>
+    <text>Battlecry: Choose a friendly minion. Gain a copy of it's deathrattle effect.</text>
+</card>
+<card>
+    <name>Pit Snake</name>
+    <set picURL="">Rogue LoE</set>
+    <manacost>1</manacost>
+    <type>Minion</type> 
+    <pt>2/1</pt>
+    <tablerow>2</tablerow>
+    <text>Destroy any minion damaged by this minion.</text>
+</card>
+<card>
+    <name>Tomb Pillager</name>
+    <set picURL="">Rogue LoE</set>
+    <manacost>4</manacost>
+    <type>Minion</type> 
+    <pt>5/4</pt>
+    <tablerow>2</tablerow>
+    <text>Deathrattle: Add a Coin to your hand.</text>
+</card>
+<card>
+    <name>Everyfin is Awesome</name>
+    <set picURL="">Shaman LoE</set>
+    <manacost>7</manacost>
+    <type>Spell</type> 
+    <pt></pt>
+    <tablerow>3</tablerow>
+    <text>Give your minions +2/+2. Costs (1) less for each Murloc you control.</text>
+</card>
+<card>
+    <name>Rumbling Elemental</name>
+    <set picURL="">Shaman LoE</set>
+    <manacost>4</manacost>
+    <type>Minion</type> 
+    <pt>2/6</pt>
+    <tablerow>2</tablerow>
+    <text>After you play a Battlecry minion, deal 2 damage to a random enemy.</text>
+</card>
+<card>
+    <name>Tunnel Trogg</name>
+    <set picURL="">Shaman LoE</set>
+    <manacost>1</manacost>
+    <type>Minion</type> 
+    <pt>1/3</pt>
+    <tablerow>2</tablerow>
+    <text>Whenever you Overload, gain +1 attack per locked mana crystal.</text>
+</card>
+<card>
+    <name>Dark Peddler</name>
+    <set picURL="">Warlock LoE</set>
+    <manacost>2</manacost>
+    <type>Minion</type> 
+    <pt>2/2</pt>
+    <tablerow>2</tablerow>
+    <text>Battlecry: Discover a 1-cost card.</text>
+</card>
+<card>
+    <name>Reliquary Seeker</name>
+    <set picURL="">Warlock LoE</set>
+    <manacost>2</manacost>
+    <type>Minion</type> 
+    <pt>1/1</pt>
+    <tablerow>2</tablerow>
+    <text>Battlecry: If you have 6 other minions, gain +4/+4.</text>
+</card>
+<card>
+    <name>Curse of Rafaam</name>
+    <set picURL="">Warlock LoE</set>
+    <manacost>2</manacost>
+    <type>Spell</type> 
+    <pt></pt>
+    <tablerow>2</tablerow>
+    <text>Give your opponent a "Cursed!" card. While they hold it, they take 2 damage at the start of their turn.</text>
+</card>
+<card>
+    <name>Obsidian Destroyer</name>
+    <set picURL="">Warrior LoE</set>
+    <manacost>7</manacost>
+    <type>Minion</type> 
+    <pt>7/7</pt>
+    <tablerow>2</tablerow>
+    <text>At the end of your turn, summon a 1/1 Scarab with Taunt.</text>
+</card>
+<card>
+    <name>Fierce Monkey</name>
+    <set picURL="">Warrior LoE</set>
+    <manacost>3</manacost>
+    <type>Minion - Beast</type> 
+    <pt>3/4</pt>
+    <tablerow>2</tablerow>
+    <text>Taunt.</text>
+</card>
+<card>
+    <name>Cursed Blade</name>
+    <set picURL="">Warrior LoE</set>
+    <manacost>3</manacost>
+    <type>Weapon</type> 
+    <pt>2/3</pt>
+    <tablerow>1</tablerow>
+    <text>Double all damage dealt to your hero.</text>
+</card>
+<card>
+    <name>Golden Monkey</name>
+    <set picURL="">Token LoE</set>
+    <manacost>4</manacost>
+    <type>Minion</type> 
+    <pt>6/6</pt>
+    <tablerow>2</tablerow>
+    <text>Taunt. Battlecry: Replace your hand and deck with Legendary minions.</text>
+</card>
+<card>
+    <name>Map to the Golden Monkey</name>
+    <set picURL="">Token LoE</set>
+    <manacost>2</manacost>
+    <type>Spell</type> 
+    <pt></pt>
+    <tablerow>3</tablerow>
+    <text>Shuffle a Golden Monkey into your deck. Draw a card.</text>
+</card>
+<card>
+    <name>Mirror of Doom</name>
+    <set picURL="">Token LoE</set>
+    <manacost>10</manacost>
+    <type>Spell</type> 
+    <pt></pt>
+    <tablerow>3</tablerow>
+    <text>Fill your side of the board with 3/3 Ghouls.</text>
+</card>
+<card>
+    <name>Timepiece of Horror</name>
+    <set picURL="">Token LoE</set>
+    <manacost>10</manacost>
+    <type>Spell</type> 
+    <pt></pt>
+    <tablerow>3</tablerow>
+    <text>Deal 10 damage randomly split among all enemies.</text>
+</card>
+<card>
+    <name>Lantern of Power</name>
+    <set picURL="">Token LoE</set>
+    <manacost>10</manacost>
+    <type>Spell</type> 
+    <pt></pt>
+    <tablerow>3</tablerow>
+    <text>Give a minion +10/+10.</text>
+</card>
+<card>
+    <name>Roaring Torch</name>
+    <set picURL="">Token LoE</set>
+    <manacost>3</manacost>
+    <type>Spell</type> 
+    <pt></pt>
+    <tablerow>3</tablerow>
+    <text>Deal 6 damage</text>
+</card>
+<card>
+    <name>Cursed!</name>
+    <set picURL="">Token LoE</set>
+    <manacost>2</manacost>
+    <type>Spell</type> 
+    <pt></pt>
+    <tablerow>3</tablerow>
+    <text>While this card is in your hand, at the start of your turn take 2 damage.</text>
+</card>
   </cards>
 </cockatrice_carddatabase>

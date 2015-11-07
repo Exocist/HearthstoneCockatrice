@@ -1,5 +1,12 @@
 Card changes in this
 
+
+- Golden Monkey now reads "Taunt. Battlecry: Add a Reno Jackson and an Arch-Thief Rafaam to your hand".
+- Desert Camel is now a chosen effect.
+- Anyfin Can Happen is now a chosen effect (from your graveyard).
+- Summoning Stone now reads "When you cast a spell, summon a minion with Attack and Health equal to it's cost."
+- Ancient Shade now reads "Battlecry: On your 5th turn after playing Ancient Shade, take 7 damage."
+- Mounted Raptor now reads "Deathrattle: Summon a Webspinner"
 - Captain's Parrot changed to "Battlecry: Search your deck for a Pirate, reveal it, and put it into your hand. Then shuffle your deck."
 - Far Sight now changed to "Exile the top card of your deck. You may play that card for as long as it remains exiled and may pay up to (3) less to cast it"
 - Bane of Doom now changed to "Deal 2 damage to a character. If that kills it, summon a random 4-cost demon"
