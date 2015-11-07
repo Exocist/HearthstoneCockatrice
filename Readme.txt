@@ -16,3 +16,13 @@ To install this custom set
 - Click ok
 - Close cockatrice
 - Open cockatrice
+
+To grab new sets (When I add them)
+
+- Simply grab the the Cards.xml and Tokens.xml in the new set, then replace the Cards.xml and Tokens.xml in Fixed-RNG-Set with them. 
+- After you do that, grab the card pictures inside CUSTOM in the new set and add them to the folder CUSTOM inside Fixed-RNG-Set.
+
+How to Discover?
+
+- Discover is going to work a bit differently in this. Basically, it now says "Reveal cards from the top of your deck until you reveal 3 (Insert condition) cards, choose one of them, put it into your hand and then shuffle your deck".
+- This means that a card like Jeweled Scarab (Discover a 3-cost card) would reveal cards from the top of your deck until you reveal 3 3-cost cards (Or as many as you have left in your deck, if you don't have at least 3) then you get to pick one of them to put in your hand, put the rest in your deck and shuffle your deck.
